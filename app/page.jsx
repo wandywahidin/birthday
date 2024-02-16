@@ -61,7 +61,7 @@ const Timer3 = () => {
 
   const startCountDown = useCallback(() => {
     const customDate = new Date();
-    const countDownDate = new Date(2024, 1, 16, 22, 27, 0);
+    const countDownDate = new Date(2024, 1, 16, 23, 59, 0);
 
     // Set up the interval and store its reference
     const intervalId = setInterval(() => {

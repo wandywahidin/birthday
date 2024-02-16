@@ -22,7 +22,6 @@ const Birthday = () => {
         pudar. Aku mencintaimu dengan segenap hatiku.
       </motion.div>
       <div className="night"></div>
-
       <div className="flowers">
         <div className="flower flower--1">
           <div className="flower__leafs flower__leafs--1">
