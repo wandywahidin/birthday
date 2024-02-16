@@ -91,61 +91,61 @@ const Timer3 = () => {
 
   return (
     <PageTransition>
-      <div classNameName="bg-[#191A24] h-screen bg-[url('/bg.jpg')] bg-cover">
-        <div classNameName="flex flex-col items-center justify-center w-full h-full gap-8 sm:gap-16">
-          <div classNameName="flex flex-col gap-6 sm:p-6 p-4 mx-2 bg-brown-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 ">
+      <div className="bg-[#191A24] h-screen bg-[url('/bg.jpg')] bg-cover">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-8 sm:gap-16">
+          <div className="flex flex-col gap-6 sm:p-6 p-4 mx-2 bg-brown-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 ">
             <span
               style={neonTextStyle}
-              classNameName="text-3xl neon-text sm:text-6xl font-semibold text-white text-center tracking-widest px-4"
+              className="text-3xl neon-text sm:text-6xl font-semibold text-white text-center tracking-widest px-4"
             >
               Sindi Belindawati Birthday
             </span>
-            <div classNameName="flex justify-center gap-3 sm:gap-8">
-              <div classNameName="flex flex-col gap-5 relative">
-                <div classNameName="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
-                  <div classNameName="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24]"></div>
-                  <span classNameName="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
+            <div className="flex justify-center gap-3 sm:gap-8">
+              <div className="flex flex-col gap-5 relative">
+                <div className="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+                  <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24]"></div>
+                  <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
                     {countDownTime?.days}
                   </span>
-                  <div classNameName="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
+                  <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
                 </div>
-                <span classNameName="text-[#8486A9] font-semibold text-xs sm:text-2xl text-center capitalize">
+                <span className="text-[#8486A9] font-semibold text-xs sm:text-2xl text-center capitalize">
                   {countDownTime?.days == 1 ? "Day" : "Days"}
                 </span>
               </div>
-              <div classNameName="flex flex-col gap-5 relative">
-                <div classNameName="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
-                  <div classNameName="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24]"></div>
-                  <span classNameName="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
+              <div className="flex flex-col gap-5 relative">
+                <div className="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+                  <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24]"></div>
+                  <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
                     {countDownTime?.hours}
                   </span>
-                  <div classNameName="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
+                  <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
                 </div>
-                <span classNameName="text-[#8486A9] text-xs sm:text-2xl text-center font-medium">
+                <span className="text-[#8486A9] text-xs sm:text-2xl text-center font-medium">
                   {countDownTime?.hours == 1 ? "Hour" : "Hours"}
                 </span>
               </div>
-              <div classNameName="flex flex-col gap-5 relative">
-                <div classNameName="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
-                  <div classNameName="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24]"></div>
-                  <span classNameName="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
+              <div className="flex flex-col gap-5 relative">
+                <div className="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+                  <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24]"></div>
+                  <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
                     {countDownTime?.minutes}
                   </span>
-                  <div classNameName="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
+                  <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
                 </div>
-                <span classNameName="text-[#8486A9] font-semibold text-xs sm:text-2xl text-center capitalize">
+                <span className="text-[#8486A9] font-semibold text-xs sm:text-2xl text-center capitalize">
                   {countDownTime?.minutes == 1 ? "Minute" : "Minutes"}
                 </span>
               </div>
-              <div classNameName="flex flex-col gap-5 relative">
-                <div classNameName="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
-                  <div classNameName="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24]"></div>
-                  <span classNameName="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
+              <div className="flex flex-col gap-5 relative">
+                <div className="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+                  <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24]"></div>
+                  <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
                     {countDownTime?.seconds}
                   </span>
-                  <div classNameName="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
+                  <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
                 </div>
-                <span classNameName="text-[#8486A9] font-semibold text-xs sm:text-2xl text-center capitalize">
+                <span className="text-[#8486A9] font-semibold text-xs sm:text-2xl text-center capitalize">
                   {countDownTime?.seconds == 1 ? "Second" : "Seconds"}
                 </span>
               </div>
